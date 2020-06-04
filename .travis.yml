@@ -7,6 +7,6 @@ branches:
   only: 
     - master
 install:
-  - docker-compose -f udagram-deployment/docker/docker-compose-build.yaml build --parallel
+  - docker-compose -f project/solution/udagram-deployment/docker/docker-compose-build.yaml build --parallel
 script:
   echo "done"
